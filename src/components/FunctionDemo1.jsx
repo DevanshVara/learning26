@@ -1,4 +1,5 @@
 import React from 'react'
+import { CardComponent } from './CardComponent'
 
 const FunctionDemo1 = () => {
     const test = () => {
@@ -14,7 +15,7 @@ const FunctionDemo1 = () => {
         <button onClick={test}>Click</button>
         {/* <button onClick={test2(2)}>Click2</button> */}
         <button onClick={()=>{test2(100)}}>Click 2</button>
-
+        <CardComponent></CardComponent>
     </div>
   )
 }

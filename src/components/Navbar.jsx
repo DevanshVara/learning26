@@ -75,6 +75,21 @@ const Navbar = () => {
                 fundemo1
               </Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/employees">
+                employees
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/inputdemo1">
+                inputdemo1
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/inputdemo2">
+                inputdemo2
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>
