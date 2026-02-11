@@ -31,6 +31,10 @@ import FunctionDemo1 from "./components/FunctionDemo1.jsx";
 import Employees from "./components/Employees.jsx";
 import InputDemo1 from "./components/input/InputDemo1.jsx";
 import InputDemo2 from "./components/input/InputDemo2.jsx";
+import FormDemo1 from "./components/form/FormDemo1.jsx";
+import FormDemo2 from "./components/form/FormDemo2.jsx";
+import FormDemo3 from "./components/form/FormDemo3.jsx";
+import FormDemo4 from "./components/form/FormDemo4.jsx";
 // import NetflixWebseries from "./components/NetflixWebseries.jsx";
 // import NetflixDisney from "./components/NetflixDisney.jsx";
 // import NetflixTV from "./components/NetflixTV.jsx";
@@ -74,6 +78,11 @@ function App() {
         <Route path="/employees" element={<Employees/>}></Route>
         <Route path="/inputdemo1" element={<InputDemo1/>}></Route>
         <Route path="/inputdemo2" element={<InputDemo2/>}></Route>
+        <Route path="/formdemo1" element = {<FormDemo1/>}></Route>
+        <Route path="/formdemo2" element = {<FormDemo2/>}></Route>
+        <Route path="/formdemo3" element = {<FormDemo3/>}></Route>
+        <Route path="/formdemo4" element = {<FormDemo4/>}></Route>
+
         <Route path="/*" element={<ErrorNotFound/>}></Route>
         
       </Routes>
