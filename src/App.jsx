@@ -24,6 +24,10 @@ import Watch from "./components/Watch.jsx";
 import ErrorNotFound from "./components/ErrorNotFound.jsx";
 import TeamDetails from "./components/TeamDetails.jsx";
 import Teams from "./components/Teams.jsx";
+import UseStateDemo1 from "./components/UseStateDemo1.jsx";
+import UseStateDemo2 from "./components/UseStateDemo2.jsx";
+import UseStateDemo3 from "./components/UseStateDemo3.jsx";
+import FunctionDemo1 from "./components/FunctionDemo1.jsx";
 // import NetflixWebseries from "./components/NetflixWebseries.jsx";
 // import NetflixDisney from "./components/NetflixDisney.jsx";
 // import NetflixTV from "./components/NetflixTV.jsx";
@@ -60,6 +64,10 @@ function App() {
         <Route path="/watch/:name" element={<Watch/>}></Route>
         <Route path="/teams" element={<Teams/>}></Route>
         <Route path="/teamdetails/:detail" element={<TeamDetails/>}></Route>
+        <Route path="/fundemo1" element={<FunctionDemo1/>}></Route>
+        <Route path="/usestatedemo1" element={<UseStateDemo1/>}></Route>
+        <Route path="/usestatedemo2" element={<UseStateDemo2/>}></Route>
+        <Route path="/usestatedemo3" element={<UseStateDemo3/>}></Route>
         <Route path="/*" element={<ErrorNotFound/>}></Route>
         
       </Routes>

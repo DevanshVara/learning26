@@ -42,19 +42,39 @@ const Navbar = () => {
             </li>
             {/* <li className="nav-item">
               <Link className="nav-link" to="/netflixwebseries">
-                Webseries
+              Webseries
               </Link>
-            </li>
-            <li className="nav-item">
+              </li>
+              <li className="nav-item">
               <Link className="nav-link" to="/netflixdisney">
                 Disney
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/netflixtv">
-                TV
-              </Link>
+            <Link className="nav-link" to="/netflixtv">
+            TV
+            </Link>
             </li> */}
+            <li className="nav-item">
+              <Link className="nav-link" to="/usestatedemo1">
+                usestatedemo1
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/usestatedemo2">
+                usestatedemo2
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/usestatedemo3">
+                usestatedemo3
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/fundemo1">
+                fundemo1
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>
