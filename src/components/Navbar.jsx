@@ -75,11 +75,11 @@ const Navbar = () => {
                 fundemo1
               </Link>
             </li> */}
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link className="nav-link" to="/employees">
                 employees
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link className="nav-link" to="/inputdemo1">
                 inputdemo1
@@ -95,9 +95,9 @@ const Navbar = () => {
                 formdemo1
               </Link>
             </li>
-            <li class="nav-item">
+            {/* <li class="nav-item">
               <Link class="nav-link" to="/formdemo2">
-                formdemo2
+              formdemo2
               </Link>
             </li>
             <li class="nav-item">
@@ -106,8 +106,23 @@ const Navbar = () => {
               </Link>
             </li>
             <li class="nav-item">
-              <Link class="nav-link" to="/formdemo4">
-                formdemo4
+            <Link class="nav-link" to="/formdemo4">
+            formdemo4
+            </Link>
+            </li> */}
+            <li class="nav-item">
+              <Link class="nav-link" to="/formvalid1">
+                formvalid1
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/formvalid2">
+                formvalid2
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/formvalid3">
+                formvalid3
               </Link>
             </li>
           </ul>
