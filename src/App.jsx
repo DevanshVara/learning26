@@ -42,6 +42,10 @@ import Formvalid4 from "./components/form/Formvalid4.jsx";
 import Formvalid5 from "./components/form/Formvalid5.jsx";
 import FormDemo5 from "./components/form/FormDemo5.jsx";
 import FormDemo6 from "./components/form/FormDemo6.jsx";
+import ApiDemo1 from "./components/api/ApiDemo1.jsx";
+import ApiDemo2 from "./components/api/ApiDemo2.jsx";
+import ApiDemo3 from "./components/api/ApiDemo3.jsx";
+import ApiDemo4 from "./components/api/ApiDemo4.jsx";
 // import NetflixWebseries from "./components/NetflixWebseries.jsx";
 // import NetflixDisney from "./components/NetflixDisney.jsx";
 // import NetflixTV from "./components/NetflixTV.jsx";
@@ -96,6 +100,10 @@ function App() {
         <Route path="/formvalid5" element = {<Formvalid5/>}></Route>
         <Route path="/formdemo5" element = {<FormDemo5/>}></Route>
         <Route path="/formdemo6" element = {<FormDemo6/>}></Route>
+        <Route path="/apidemo1" element = {<ApiDemo1/>}></Route>
+        <Route path="/apidemo2" element = {<ApiDemo2/>}></Route>
+        <Route path="/apidemo3" element = {<ApiDemo3/>}></Route>
+        <Route path="/apidemo4" element = {<ApiDemo4/>}></Route>
 
         <Route path="/*" element={<ErrorNotFound/>}></Route>
         

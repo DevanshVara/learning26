@@ -7,7 +7,7 @@ const FormDemo6 = () => {
         console.log(data);
     }
 
-    const password = watch("password")
+    const password = watch("password", "")
     console.log("watching...", password);
     
 
