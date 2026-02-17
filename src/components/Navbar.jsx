@@ -80,7 +80,7 @@ const Navbar = () => {
                 employees
               </Link>
             </li> */}
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link className="nav-link" to="/inputdemo1">
                 inputdemo1
               </Link>
@@ -94,7 +94,7 @@ const Navbar = () => {
               <Link class="nav-link" to="/formdemo1">
                 formdemo1
               </Link>
-            </li>
+            </li> */}
             {/* <li class="nav-item">
               <Link class="nav-link" to="/formdemo2">
               formdemo2
@@ -123,6 +123,26 @@ const Navbar = () => {
             <li class="nav-item">
               <Link class="nav-link" to="/formvalid3">
                 formvalid3
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/formvalid4">
+                formvalid4
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/formvalid5">
+                formvalid5
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/formdemo5">
+                formdemo5
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/formdemo6">
+                formdemo6
               </Link>
             </li>
           </ul>
